@@ -1,0 +1,25 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class posts extends Model
+{
+    use HasFactory;
+	
+	protected $fillable = [
+        'caption',
+		'userid',
+        'content',
+        'perm',
+		'postimg',
+		'tags',
+		'perm',
+		'latitude',
+		'longitude',
+		'cost'
+
+    ];
+}

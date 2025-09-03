@@ -1,0 +1,19 @@
+php artisan make:controller contactController  создание контроллера
+
+php artisan make:request RegRequest Создание реквеста проверки отправленой информации через валидацию 
+
+php artisan make:model registration -m Создание модели с  миграцией 
+
+php artisan migrate миграция таблиц в базу данных
+
+php artisan storage:link для доступа отображения storage
+
+npm run dev применить изменения
+
+
+.env в этом файле настройки подключения к базе данных mysql а также данные сервера
+
+Установка laravel через консоль
+
+composer self-update
+composer create-project --prefer-dist laravel/laravel mysite1
